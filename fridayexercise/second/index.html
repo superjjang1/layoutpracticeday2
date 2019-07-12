@@ -25,21 +25,62 @@ body {
 
 }
 .mainbox {
+    display: flex;
     background-color: white;
     height: 65vh;
     width: 88vh;
     border-radius: 12px;
+    justify-content:space-around;
+    flex-flow: row wrap;
+
 
 }
+.menu {
+    border: 3px solid black;
+    width: 87vh;
 
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+}
+.content {
+    border: 6px solid black;
+    height: 45vh;
+    width: 32vh;
+}
+.image {
+    border: 4px solid pink;
+
+}
+img {
+    max-width: 40vh;
+}
 </style>
 <body>
     <div class="mainbox">
         <div class="menu">
+            <ul>
+                <li>web design</li>
+                <li>UI/UX</li>
+                <li>WireFRAMING</li>
+                <li>Prototyping</li>
+            </ul>
 
         </div>
-        <div></div>
-        <div></div>
+
+        <div class="content">   just some text
+
+        </div>
+        <div class="image">
+            <img src="https://i.imgur.com/axNYRLG.jpg">
+        </div>
     </div>
     
 </body>
